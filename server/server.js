@@ -55,7 +55,7 @@ app.get('/users/:_id',(req,res)=>{
 
 //// delete
 
-app.delete('users/:_id',(req,res)=>{
+app.delete('/users/:_id',(req,res)=>{
     const{_id}=req.params
     if(!err){
         Users.findByIdAndDelete(_id,(err,doc)=>{
@@ -74,7 +74,7 @@ app.post('/users',(req,res)=>{
         img:req.body.img,
         title:req.body.title,
         description:req.body.description,
-        profilImg:req.body.iprofilImgmg,
+        profilImg:req.body.profilImg,
         name:req.body.name,
         price:req.body.price,
     })

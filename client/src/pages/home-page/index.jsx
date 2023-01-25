@@ -1,4 +1,6 @@
 import React from 'react'
+import ServicePart from '../services-part'
+
 import StaticPart1 from '../static-part1'
 import TopPart from '../top-part'
 import TopPartcards from '../top-part-cards'
@@ -11,6 +13,8 @@ const HomePage = () => {
         <TopPartcards/>
         <UsersPart/>
         <StaticPart1/>
+        <ServicePart/>
+        
     </div>
   )
 }

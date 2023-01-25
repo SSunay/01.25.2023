@@ -15,7 +15,7 @@ const Header = () => {
                     <li><NavLink to={'/'}>About</NavLink></li>
                     <li><NavLink to={'/'}>Courses</NavLink></li>
                     <li><NavLink to={'/'}>News</NavLink></li>
-                    <li><NavLink to={'/'}>Add</NavLink></li>
+                    <li><NavLink to={'/add-page'}>Add</NavLink></li>
                 </ul>
             </div>
             <div className='phone'><i class="fa-solid fa-phone-volume"></i>+43 4566 7788 2457</div>

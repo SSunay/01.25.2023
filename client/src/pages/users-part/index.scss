@@ -19,6 +19,8 @@
  background-color: #ffb606;
     }
     .all{
+        flex-wrap: wrap;
+        row-gap: 50px;
         display: flex;
         justify-content: center;
         column-gap: 80px;
@@ -52,7 +54,7 @@
             // padding: 15px;
              .usermain{
                 display: flex;
-                padding: 20px 0px 0px 0px;
+                padding: 10px 8px ;
                  .userImg{
                 img{
                     // padding: 0px 0px 0px 20px;
@@ -71,7 +73,7 @@
                 // padding: 10px;
                 background-color: #ffb606;
                 width: 66px;
-                height: 66px;
+                height: 69px;
                 text-align: center;
                 // padding: 10px 0px 0px 0px ;
                 align-items: center;

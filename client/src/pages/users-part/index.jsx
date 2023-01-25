@@ -3,6 +3,8 @@ import { useState } from 'react'
 import axios from 'axios'
 import './index.scss'
 import { Link } from 'react-router-dom'
+import Search from '../../components/search'
+// import Search from 'antd/es/transfer/search'
 const UsersPart = () => {
     const[user,setUsers]=useState([])
 
@@ -21,10 +23,11 @@ getData()
         <div className='allPart'>
         <div className='line'></div>
         <div className='title'><h1>Popular Courses</h1></div>
+        <Search setUsers={setUsers}/>
         <div className='all'>
             {user.map((el)=>{
                return(
-                <Link>
+                <Link to={`/home-page/${el._id}`}>
                  <div className='card'>
                     <div className='cardImg'><img src={el.img} alt="" /></div>
                     <div className='cardText'>
