@@ -1,0 +1,39 @@
+.TopPartcards{
+    .allCards{
+        max-width: 1280px;
+  margin: 0 auto;
+  padding: 0; 
+  display: flex;
+  justify-content: space-around;
+        .card{
+            display: flex;
+            border: 1px solid black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #1a1a1a;
+            position: relative;
+            bottom: 180px;
+            color: white;
+            .icon{
+                img{
+                    padding: 35px 15px 0px 0px;
+                    width: 60px;
+                    height: 60px;
+                }
+
+            }
+            .txt{
+                h1{
+            font-weight: 400;
+            font-size: 30px;
+
+                }
+                h5{
+            font-weight: 400;
+                    opacity: 0.6;
+                }
+
+            }
+        }
+    }
+}

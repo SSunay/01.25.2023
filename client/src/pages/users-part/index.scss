@@ -1,0 +1,83 @@
+.userPart{
+  .allPart{
+      max-width: 1280px;
+  margin: 0 auto;
+  padding: 0; 
+  justify-content: center;
+ 
+    .title{
+        text-align: center;
+        h1{
+            margin: 15px 0px 45px 0px;
+        }
+    }
+    .line{
+        position: relative;
+        left: 600px;
+ width: 100px;
+ height: 4px;
+ background-color: #ffb606;
+    }
+    .all{
+        display: flex;
+        justify-content: center;
+        column-gap: 80px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+     .card{
+         .cardImg{
+            img{
+                width: 350px;
+                height: 263px;
+               }
+         }
+         .cardText{
+            text-align: center;
+            h3{
+                font-weight: 400;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 13px;
+                opacity: 0.6;
+            }
+ 
+         }
+         .user{
+            display: flex;
+            justify-content: space-between;
+            background-color: #eaebec;
+            // padding: 15px;
+             .usermain{
+                display: flex;
+                padding: 20px 0px 0px 0px;
+                 .userImg{
+                img{
+                    // padding: 0px 0px 0px 20px;
+                    border-radius: 50%;
+                }
+                 }
+                 .userName{
+                    padding: 0px 0px 0px 70px;
+                    span{
+                        opacity: 0.6;
+                        
+                    }
+                 }
+             }
+             .userprice{
+                // padding: 10px;
+                background-color: #ffb606;
+                width: 66px;
+                height: 66px;
+                text-align: center;
+                // padding: 10px 0px 0px 0px ;
+                align-items: center;
+             }
+         }
+     }
+    }
+  }
+}
